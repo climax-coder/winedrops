@@ -1,0 +1,205 @@
+.container {
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .search-section {
+    margin-top: 23px;
+  }
+  
+  /* .input-container {
+    position: relative;
+    display: inline-block;
+  } */
+  /* .input-container .fa-search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.search-input {
+
+  padding: 5px -1px 8px 36px;
+  width: 168px;
+  border-radius: 19px;
+  border: 2px solid hsla(0, 0%, 13%, 1);
+  font-size: 14px;
+} */
+  
+
+
+/* .input-container {
+
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 15rem;
+} */
+
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-text {
+  width: 100%;
+  padding: 10px 40px; /* Add padding to leave space for the icon */
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px; /* Position the icon inside the input field */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #999;
+}
+
+
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: cursive;
+  color: black;
+  font-weight: 600;
+  flex-grow: 1; /* Allow input to expand */
+}
+
+/* 
+.search-text {
+    font-size: 14px;
+    margin-top: -1px;
+
+    font-weight: 600;
+    font-family: cursive;
+    border: none;
+
+} */
+.input-container input::placeholder {
+  border: none;
+  color:black; /* Placeholder text color */
+}
+
+.input-container input {
+  flex-grow: 1; /* Make the input take up available space */
+}
+
+
+
+  /* Style for the list items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 1px;
+  margin: 6px 2px 2px 28px;
+ 
+}
+
+/* Green highlight for top 10% wines */
+.highlight {
+
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 24px;
+  color: #25c148;
+
+}
+
+.green-highlight {
+  color: green;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 24px;  font-weight: bold;
+}
+
+.red-highlight {
+  color: red;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 24px;  
+  font-weight: bold;
+}
+
+.global {
+  list-style-type: decimal;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 24px;  
+  font-weight: bold;
+}
+
+
+.inline-list {
+  list-style-position: inside; /* Keep the numbering inside the list item */
+  padding-left: 0; /* Remove default padding */
+}
+
+.inline-list li {
+  display: inline; /* Make the list items inline */
+  margin-right: 10px; /* Add space between list items */
+}
+.title{
+
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 54px;  
+  font-weight: bold;
+}
+
+
+/**************************/
+
+.title_btn {
+  /* Default button styles */
+  color: #000;
+  border: 0.5px solid hsla(0, 0%, 13%, 1);
+  padding: 6px 17px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+.title_btn.active {
+  background-color: #a0d3ff; /* Blue background for active button */
+}
+
+.title_btn:hover {
+  background-color: #76b8f5; /* Slightly darker background on hover */
+}
+
+
+
+
+
+  .btn {
+    box-shadow: 3.5px 10px  black; /* Increased the vertical offset to 20px */
+
+}
+
+.no-results-message {
+
+  color: red; /* Red color to grab attention */
+
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: 100;
+
+}
